@@ -1,22 +1,28 @@
 # 🚗 Vehicle Status Tracker
 
-This is a simple Java console application that simulates a **car running on a road**, showing its **name (ID), speed, and fuel level**.  
-
-It demonstrates:
-- Input handling with `Scanner`
-- Basic validation for speed and fuel level
-- Object-oriented programming in Java
+**VehicleStatusTracker** is a simple Java console application that simulates a car moving on a road. It displays the car's name, speed, fuel level, and current status in real-time.
 
 ---
 
-## 📌 Features
-- ✅ Enter a vehicle ID, speed, and fuel level in a single line.  
-- ✅ Automatically prevents negative speeds (minimum = `0`).  
-- ✅ Keeps fuel level within `0–100%` range.  
-- ✅ Displays vehicle status in a readable format.  
+## 📦 Features
+
+- Simulates a car driving on a road  
+- Displays vehicle name, speed, and fuel level  
+- Console-based output with clear formatting  
+- Easy to extend for multiple vehicles or dynamic updates
 
 ---
 
-## 🖥️ Example Usage
+## 🚘 Simulation Details
 
-### Input
+This simulation features a single car:
+
+- **Name:** Akram's Car  
+- **Speed:** 60 km/h  
+- **Fuel Level:** 10 liters  
+- **Status:** Running on the road
+
+---
+
+## 📄 Sample Output
+
