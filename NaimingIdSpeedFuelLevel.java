@@ -12,25 +12,23 @@ public class NaimingIdSpeedFuelLevel{
 
         // Speed is non-negative
         if (newSpeed < 0) {
-            this.speed = 0;
-        } else {
-            this.speed = newSpeed;
-        }
+            this.speed = 0;}
+        else {
+            this.speed = newSpeed;}
 
         // Fuel level is between 0 and 100
         if (newFuelLevel < 0) {
-            this.fuelLevel = 0;
-        } else if (newFuelLevel > 100) {
-            this.fuelLevel = 100;
-        } else {
+            this.fuelLevel = 0;}
+        else if (newFuelLevel > 100) {
+            this.fuelLevel = 100;}
+        else {
             this.fuelLevel = newFuelLevel;
         }
     }
 
     // Method to display vehicle status
     public String getVehicleStatus() {
-        return "Vehicle " + vehicleId + ": Speed = " + speed + " km/h, Fuel = " + fuelLevel + "%";
-    }
+        return "Vehicle " + vehicleId + ": Speed = " + speed + " km/h, Fuel = " + fuelLevel + "%";}
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
